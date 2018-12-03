@@ -1,6 +1,6 @@
 ﻿#define variables
 #<embed_codes_from_imgbb> = @("https://i.ibb.co/asdad/IMG-2018052.jpg", ...)
-$imgbb_embedcodes = @(<embed_codes_from_imgbb>) #this should be replace before executing the script
+$imgbb_embedcodes = @(<embed_codes_from_imgbb>) #this should be replaced before executing the script - see readme file
 $output_dir = "$PSScriptRoot\"
 
 Write-Host '>> Start download of images from imgbb'
